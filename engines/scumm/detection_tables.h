@@ -111,6 +111,7 @@ static const PlainGameDescriptor gameDescriptions[] = {
 	{ "freddi3", "Freddi Fish 3: The Case of the Stolen Conch Shell" },
 	{ "freddi4", "Freddi Fish 4: The Case of the Hogfish Rustlers of Briny Gulch" },
 	{ "FreddisFunShop", "Freddi Fish's One-Stop Fun Shop" },
+	{ "gaspocket", "A Gaspocket Adventure: Aliens Ate My Cookies" },  // Add support for A Gaspocket Adventure: Aliens Ate My Cookies (Demo)
 	{ "jungle", "Let's Explore the Jungle with Buzzy" },
 	{ "lost", "Pajama Sam's Lost & Found" },
 	{ "maze", "Freddi Fish and Luther's Maze Madness" },
@@ -346,12 +347,15 @@ static const GameSettings gameVariantsTable[] = {
 
 	// Added the use of bink videos
 	{"Soccer2004", 0, 0, GID_SOCCER2004, 6, 100, MDT_NONE, GF_USE_KEY | GF_16BIT_COLOR, UNK, GUIO3(GUIO_NOLAUNCHLOAD, GUIO_NOMIDI, GUIO_NOASPECT)},
+	
+	// Add support for A Gaspocket Adventure: Aliens Ate My Cookies (Demo)
+	{"gaspocket", 0, 0, GID_HEGAME, 6, 100, MDT_NONE, GF_USE_KEY | GF_16BIT_COLOR, UNK, GUIO3(GUIO_NOLAUNCHLOAD, GUIO_NOMIDI, GUIO_NOASPECT)},
 
 	// U32 code required, for testing only
 	{"moonbase", "1.0", 0, GID_MOONBASE, 6, 100, MDT_NONE, GF_USE_KEY | GF_16BIT_COLOR, UNK, GUIO3(GUIO_NOLAUNCHLOAD, GUIO_NOMIDI, GUIO_NOASPECT)},
 	{"moonbase", "1.1", 0, GID_MOONBASE, 6, 100, MDT_NONE, GF_USE_KEY | GF_16BIT_COLOR, UNK, GUIO3(GUIO_NOLAUNCHLOAD, GUIO_NOMIDI, GUIO_NOASPECT)},
 	{"moonbase", "Demo", 0, GID_MOONBASE, 6, 100, MDT_NONE, GF_USE_KEY | GF_16BIT_COLOR | GF_DEMO, UNK, GUIO3(GUIO_NOLAUNCHLOAD, GUIO_NOMIDI, GUIO_NOASPECT)},
-
+	
 	// HE100 games, which use older o72_debugInput code
 	{"Baseball2003", 0, 0, GID_BASEBALL2003, 6, 101, MDT_NONE, GF_USE_KEY | GF_16BIT_COLOR, UNK, GUIO3(GUIO_NOLAUNCHLOAD, GUIO_NOMIDI, GUIO_NOASPECT)},
 	{"basketball", 0, 0, GID_BASKETBALL, 6, 101, MDT_NONE, GF_USE_KEY| GF_16BIT_COLOR, UNK, GUIO3(GUIO_NOLAUNCHLOAD, GUIO_NOMIDI, GUIO_NOASPECT)},
@@ -533,6 +537,7 @@ static const GameFilenamePattern gameFilenamesTable[] = {
 	{ "freddicove", "ff5demo", kGenHEPC, UNK_LANG, UNK, 0 },
 	{ "freddicove", "FF5Demo", kGenHEMac, Common::NL_NLD, Common::kPlatformMacintosh, 0 },
 
+	{ "gaspocket", "gaspocketdemo", kGenHEPC, UNK_LANG, UNK, 0 },
 	{ "moonbase", "moonbase", kGenHEPC, UNK_LANG, UNK, 0 },
 	{ "moonbase", "moondemo", kGenHEPC, UNK_LANG, UNK, 0 },
 

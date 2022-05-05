@@ -217,6 +217,7 @@ enum ScummGameId {
 	GID_FUNSHOP,	// Used for all three funshops
 	GID_FOOTBALL,
 	GID_FOOTBALL2002,
+	//GID_GASPOCKET,  Add support for A Gaspocket Adventure: Aliens Ate My Cookies (Demo)
 	GID_SOCCER,
 	GID_SOCCERMLS,
 	GID_SOCCER2004,
